@@ -31,7 +31,7 @@
 ---
 
 ## 🚀 Quick start
-1. Download the release archive: https://github.com/Yinhao-C/CyhTabs/releases/download/v1.0.0/cyhtabs-1.0.0.zip ⬇️
+1. Download the release archive: https://github.com/Yinhao-C/CyhTabs/releases ⬇️
 2. Extract the archive to a folder.
 3. **Chrome / Edge**: Open `chrome://extensions/`, enable **Developer mode**, click **Load unpacked**, and select the folder containing `manifest.json`.
 4. Click the toolbar icon to open the popup and save your first group. 🎉
