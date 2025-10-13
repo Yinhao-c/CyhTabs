@@ -90,23 +90,7 @@
 
 ---
 
-## 🛠️ Developer & Packaging Guide (concise summary)
-- Keep `manifest.json` version in sync with releases.
-- Use semantic versioning (MAJOR.MINOR.PATCH).
-- Zip only the extension root (i.e., the folder that contains `manifest.json`) when creating release artifacts:
 
-```bash
-cd path/to/extension-root
-zip -r cyhtabs-1.0.0.zip *
-```
-
-- Prepare store assets: high-res screenshots, icons, and a privacy statement (if needed).
-- For Firefox AMO, ensure compatibility with WebExtensions APIs and avoid Chrome-only private APIs or provide fallbacks. 🔁
-
-**Recommended CI step (optional)**
-- Run linting (ESLint) and simple smoke test (load unpacked and verify function) before tagging a release. ✅
-
----
 
 
 ## 🩺 Troubleshooting & FAQ (quick)
