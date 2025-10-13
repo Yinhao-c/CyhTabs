@@ -1,6 +1,6 @@
 # CyhTabs — Browser Extension 🧩
 
-[License: Apache-2.0](https://img.shields.io/badge/license-Apache%202.0-lightgrey)](LICENSE)
+
 
 **CyhTabs** helps professionals and power users manage browser workflows by saving, naming, and restoring tab groups — fast, reliable, and unobtrusive. ✨
 
