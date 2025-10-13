@@ -16,7 +16,6 @@ This document provides a practical workflow for contributors and maintainers: lo
 /onboarding.css
 /icons/
 /docs/
-LICENSE
 README.md
 ```
 
