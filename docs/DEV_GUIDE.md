@@ -1,4 +1,4 @@
-# Developer Guide — CyhTabs (Authoritative) 🛠️
+# Developer Guide — CyhTabs  🛠️
 
 This document provides a practical workflow for contributors and maintainers: local iteration, debugging, schema management, packaging, and submission guidelines.
 
