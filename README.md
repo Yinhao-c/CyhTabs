@@ -1,6 +1,6 @@
 # CyhTabs — Browser Extension 🧩
 
-[![Release: v1.0.0](https://github.com/cyh-me/CyhTabs/releases/download/v1.0.0/cyhtabs-1.0.0.zip)](https://github.com/cyh-me/CyhTabs/releases/download/v1.0.0/cyhtabs-1.0.0.zip) [![License: Apache-2.0](https://img.shields.io/badge/license-Apache%202.0-lightgrey)](LICENSE)
+[![License: Apache-2.0](https://img.shields.io/badge/license-Apache%202.0-lightgrey)](LICENSE)
 
 **CyhTabs** helps professionals and power users manage browser workflows by saving, naming, and restoring tab groups — fast, reliable, and unobtrusive. ✨
 
@@ -31,7 +31,7 @@
 ---
 
 ## 🚀 Quick start
-1. Download the release archive: https://github.com/cyh-me/CyhTabs/releases/download/v1.0.0/cyhtabs-1.0.0.zip ⬇️
+1. Download the release archive: https://github.com/Yinhao-C/CyhTabs/releases/download/v1.0.0/cyhtabs-1.0.0.zip ⬇️
 2. Extract the archive to a folder.
 3. **Chrome / Edge**: Open `chrome://extensions/`, enable **Developer mode**, click **Load unpacked**, and select the folder containing `manifest.json`.
 4. Click the toolbar icon to open the popup and save your first group. 🎉
