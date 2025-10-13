@@ -120,10 +120,15 @@ Email: **yihac1@outlook.com** — I will respond and help triage. 🙏
 
 ---
 
-## 📜 License & copyright
-This project is licensed under the **Apache License 2.0**. See `LICENSE` for full text.
+## License
 
-© 2025 Yinhao Chen — All rights reserved where applicable; contributions are accepted under the Apache License 2.0.
+© 2025 Yinhao Chen. All rights reserved.
+
+CyhTabs is proprietary software licensed for personal and non-commercial use.  
+Users are granted a limited, non-transferable, revocable license to install and use the software.  
+Redistribution, modification, reverse engineering, or resale of this software is strictly prohibited without prior written permission from the author.
+
+For inquiries or licensing requests, contact: yihac1@outlook.com
 
 ---
 
