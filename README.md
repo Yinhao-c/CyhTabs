@@ -75,9 +75,7 @@
 2. Click **Load Temporary Add-on** and choose the extension folder's `manifest.json`.
 3. The add-on is loaded temporarily — it will be removed on restart. For long-term distribution, publish a signed XPI via AMO. 🔐
 
-**AMO submission notes**
-- Provide a clear permission justification and a privacy statement if your extension reads or stores user data.
-- Include screenshots and the required metadata. Respond promptly to reviewer requests. ⏱️
+
 
 ---
 
