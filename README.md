@@ -108,28 +108,6 @@ zip -r cyhtabs-1.0.0.zip *
 
 ---
 
-## 🗂️ Storage schema & migration guidance (recommended)
-Use a versioned storage schema so migrations can be run safely:
-
-```json
-{
-  "meta": { "schemaVersion": 1 },
-  "groups": [
-    {
-      "id": "uuid-v4",
-      "name": "Research - AI",
-      "createdAt": 1690000000000,
-      "tabs": [
-        {"title":"Paper","url":"https://example.com/paper","favIconUrl":"https://..."}
-      ]
-    }
-  ]
-}
-```
-
-- When changing structure, increment `schemaVersion` and implement a migration routine at runtime to convert older data to the new format. 🔧
-
----
 
 ## 🩺 Troubleshooting & FAQ (quick)
 ### Q: Popup is blank / shows nothing.
