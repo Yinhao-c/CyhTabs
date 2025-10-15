@@ -1,18 +1,18 @@
 # CyhTabs — Browser Extension 🧩
 
-
-
 **CyhTabs** helps professionals and power users manage browser workflows by saving, naming, and restoring tab groups — fast, reliable, and unobtrusive. ✨
 
 ---
 
-## 📌 Quick overview
-- **Capture**: Save the current window's tabs as a named *tab group*. 🗂️
-- **Persist**: Groups are stored locally for later restoration. 💾
-- **Restore**: Reopen a saved group with one click to recover your workspace. 🔁
-- **Lightweight**: Small footprint and minimal permissions — built for productivity. ⚡
+> ⚠️ **Update:** CyhTabs is now published on Firefox Add-ons (AMO). Install the official Firefox add-on directly from the Mozilla Add-ons site: https://addons.mozilla.org/en-US/firefox/addon/cyhtabs/
 
-> Note: A Firefox build for **Firefox Developer Edition** is available for testing. A signed AMO (addons.mozilla.org) release is planned and may be under review. For immediate use, install on Chrome/Edge via unpacked developer install (see Usage). 🔧
+---
+
+## 📌 Quick overview
+- **Capture**: Save the current window's tabs as a named *tab group*. 🗂️  
+- **Persist**: Groups are stored locally for later restoration. 💾  
+- **Restore**: Reopen a saved group with one click to recover your workspace. 🔁  
+- **Lightweight**: Small footprint and minimal permissions — built for productivity. ⚡
 
 ---
 
@@ -31,69 +31,66 @@
 ---
 
 ## 🚀 Quick start
-1. Download the release archive: https://github.com/Yinhao-C/CyhTabs/releases ⬇️
-2. Extract the archive to a folder.
-3. **Chrome / Edge**: Open `chrome://extensions/`, enable **Developer mode**, click **Load unpacked**, and select the folder containing `manifest.json`.
-4. Click the toolbar icon to open the popup and save your first group. 🎉
-
-**Firefox Developer Edition**: See the Installation (detailed) section for manual temporary install steps. ⚠️ Temporary installs are removed on restart unless signed via AMO.
+1. **Firefox (recommended / stable)** — Install from Mozilla Add-ons: https://addons.mozilla.org/en-US/firefox/addon/cyhtabs/  
+2. For development or local testing on Chromium-based browsers:
+   - Download the release archive from the repository releases page: https://github.com/Yinhao-C/CyhTabs/releases  
+   - Extract the archive to a folder.
+   - Open `chrome://extensions/`, enable **Developer mode**, click **Load unpacked**, and select the folder containing `manifest.json`.
+3. Click the toolbar icon to open the popup and save your first group. 🎉
 
 ---
 
 ## 🔧 Supported platforms
-- **Chrome** — supported via unpacked install (developer).
-- **Edge** — supported via unpacked install (developer).
-- **Firefox Developer Edition** — manual temporary installs supported for testing; production distribution should be via AMO (signed).
+- **Firefox (official)** — Installable via AMO (signed, production release).  
+- **Chrome / Edge** — Supported via unpacked developer install (for now). Consider publishing to Chrome Web Store / Edge Add-ons if you want broader distribution.
 
 ---
 
 ## ✨ Features (at a glance)
-- Save & name tab groups (title + timestamp). 🏷️
-- One‑click restore (open all group tabs). 🔁
-- Lightweight popup UI for fast access. 🖱️
-- Onboarding flow for first-time users. 🧭
+- Save & name tab groups (title + timestamp). 🏷️  
+- One-click restore (open all group tabs). 🔁  
+- Lightweight popup UI for fast access. 🖱️  
+- Onboarding flow for first-time users. 🧭  
 - Local-only storage by default (no remote servers). 🔒
 
 ---
 
 ## 🔁 Installation (detailed)
 
+### Firefox — Install from AMO (stable)
+1. Visit the official AMO listing: https://addons.mozilla.org/en-US/firefox/addon/cyhtabs/  
+2. Click **Add to Firefox** and follow the browser prompts to install.  
+3. Pin the extension to the toolbar for quick access.  
+4. Test: open several tabs, click the CyhTabs icon → Save group → name it → verify it appears in the list. Click the saved entry to restore.
+
+> Note: The AMO release is signed and persists across restarts — no temporary developer install is required for normal use.
+
 ### Chrome / Edge — Load unpacked (developer / immediate use)
-1. Download and extract the release ZIP file.
-2. In the browser address bar navigate to `chrome://extensions/`.
-3. Toggle **Developer mode** on (top-right).
-4. Click **Load unpacked** and select the folder that contains `manifest.json`.
-5. Pin the extension to the toolbar for quick access.
+1. Download and extract the release ZIP file from the releases page.  
+2. In the browser address bar navigate to `chrome://extensions/`.  
+3. Toggle **Developer mode** on (top-right).  
+4. Click **Load unpacked** and select the folder that contains `manifest.json`.  
+5. Pin the extension to the toolbar for quick access.  
 6. Test: open several tabs, click the CyhTabs icon → Save group → name it → verify it appears in the list. Click the saved entry to restore.
 
 **Developer tips**
 - After editing source files, click **Reload** on the extension card to pick up changes.
-- Use popup inspector (right‑click popup → Inspect) and Service Worker inspector (`chrome://extensions` → Service Worker → Inspect) for debugging (MV3). 🐛
-
-### Firefox Developer Edition — Load Temporary Add-on (manual testing)
-1. Open Firefox Developer Edition and go to `about:debugging#/runtime/this-firefox`.
-2. Click **Load Temporary Add-on** and choose the extension folder's `manifest.json`.
-3. The add-on is loaded temporarily — it will be removed on restart. For long-term distribution, publish a signed XPI via AMO. 🔐
-
-
+- Use popup inspector (right-click popup → Inspect) and Service Worker inspector (`chrome://extensions` → Service Worker → Inspect) for debugging (MV3). 🐛
 
 ---
 
 ## 🧭 User workflow (typical)
-1. Click the CyhTabs icon in the toolbar.
-2. Click Save group (or equivalent) — provide a descriptive name.
-3. The group appears in the saved list with timestamp and optional metadata (tab count).
-4. Click the group to restore tabs — option to open in a new window or current window (configurable).
+1. Click the CyhTabs icon in the toolbar.  
+2. Click **Save group** — provide a descriptive name.  
+3. The group appears in the saved list with timestamp and optional metadata (tab count).  
+4. Click the group to restore tabs — option to open in a new window or current window (configurable).  
 5. Manage groups: rename, delete, or export (if available).
 
 ---
 
-
-
-
 ## 🩺 Troubleshooting & FAQ (quick)
 ### Q: Popup is blank / shows nothing.
-**A:** Right‑click the popup → Inspect. Check the console for JS errors or missing resource paths. Verify `manifest.json` CSP and script references. 🧐
+**A:** Right-click the popup → Inspect. Check the console for JS errors or missing resource paths. Verify `manifest.json` CSP and script references. 🧐
 
 ### Q: Saved groups disappear after restart.
 **A:** Check storage type — prefer `chrome.storage.local` for persistence. Inspect Application → Storage → `chrome.storage` for keys. Ensure no startup code clears storage.
@@ -105,30 +102,49 @@
 **A:** Confirm `manifest.json` lists the needed permissions. After edits, reload the extension. Avoid requesting more permissions than necessary.
 
 ### Q: Issues with Firefox review / AMO.
-**A:** Common causes: undeclared data handling, insufficient permission justification, or missing privacy docs. Provide clear explanations and fix reviewer comments promptly.
+**A:** Common causes: undeclared data handling, insufficient permission justification, or missing privacy docs. Provide clear explanations and fix reviewer comments promptly. Now that CyhTabs is published on AMO, follow reviewer guidance and update your AMO listing / privacy notes if reviewers request changes.
 
 ---
 
 ## 📬 Reporting issues & getting help
 When filing an issue or emailing support, include:
-- Browser name & version (e.g., Chrome 94.0.4606.61)
-- Steps to reproduce & expected vs actual behavior
-- Console logs or a short video/GIF demonstrating the issue
+- Browser name & version (e.g., Firefox 120.0 / Chrome 116.0.5845.111)  
+- Steps to reproduce & expected vs actual behavior  
+- Console logs or a short video/GIF demonstrating the issue  
 - Extension version (`manifest.json` `version`) and release archive used
 
 Email: **yihac1@outlook.com** — I will respond and help triage. 🙏
 
 ---
 
+## 🧾 Developer & Packaging Guide (summary)
+- Manifest: MV3 for Chromium; ensure Firefox-specific keys if needed.  
+- Packaging for Firefox: create signed XPI via AMO developer hub for distribution (already completed for the AMO release).  
+- For Chromium stores you will need a Chrome Web Store developer account to publish; keep `manifest.json` and privacy disclosures up to date.
+
+---
+
+## 🔢 Storage schema & migration guidance
+- Primary storage: `chrome.storage.local` (or the equivalent WebExtension storage on Firefox).  
+- When changing schema keys, provide a migration path on startup: detect older schema versions and transform entries to the new schema. Always back up user data before destructive migrations.
+
+---
+
+## ⚙️ Troubleshooting & support notes for reviewers
+- Include a clear privacy statement describing that all data is stored locally and not sent to remote servers (if applicable).  
+- In the AMO developer listing, fill out the required permission justification fields precisely for `tabs` and `storage`.  
+- Attach a short demo GIF and reproduction steps to speed up reviewer acceptance.
+
+---
+
 ## License
 
-This project is licensed under the Mozilla Public License 2.0 (MPL-2.0).
+This project is licensed under the Mozilla Public License 2.0 (MPL-2.0).  
 You may use, modify, and distribute this software under the terms of the MPL-2.0.
 
-Any modifications made to the covered source files must be made publicly available under the same license.
-Binary or compiled forms may be distributed under your own terms, provided that the source code of the modified files remains accessible as required by the MPL.
+Any modifications made to the covered source files must be made publicly available under the same license. Binary or compiled forms may be distributed under your own terms, provided that the source code of the modified files remains accessible as required by the MPL.
 
-Copyright © 2025 Yinhao Chen.
+Copyright © 2025 Yinhao Chen.  
 For questions, contributions, or licensing inquiries, contact: yihac1@outlook.com
 
 ---
