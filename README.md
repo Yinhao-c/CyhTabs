@@ -5,6 +5,8 @@
 ---
 
 > ⚠️ **Update:** CyhTabs is now published on Firefox Add-ons (AMO). Install the official Firefox add-on directly from the Mozilla Add-ons site: https://addons.mozilla.org/en-US/firefox/addon/cyhtabs/
+>
+> This project uses AI assistance to fix some syntax and comment issues in the code
 
 ---
 
