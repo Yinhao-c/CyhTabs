@@ -122,13 +122,14 @@ Email: **yihac1@outlook.com** — I will respond and help triage. 🙏
 
 ## License
 
-© 2025 Yinhao Chen. All rights reserved.
+This project is licensed under the Mozilla Public License 2.0 (MPL-2.0).
+You may use, modify, and distribute this software under the terms of the MPL-2.0.
 
-CyhTabs is proprietary software licensed for personal and non-commercial use.  
-Users are granted a limited, non-transferable, revocable license to install and use the software.  
-Redistribution, modification, reverse engineering, or resale of this software is strictly prohibited without prior written permission from the author.
+Any modifications made to the covered source files must be made publicly available under the same license.
+Binary or compiled forms may be distributed under your own terms, provided that the source code of the modified files remains accessible as required by the MPL.
 
-For inquiries or licensing requests, contact: yihac1@outlook.com
+Copyright © 2025 Yinhao Chen.
+For questions, contributions, or licensing inquiries, contact: yihac1@outlook.com
 
 ---
 
