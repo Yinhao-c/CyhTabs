@@ -119,12 +119,6 @@ Email: **yihac1@outlook.com** — I will respond and help triage. 🙏
 
 ---
 
-## 🧾 Developer & Packaging Guide (summary)
-- Manifest: MV3 for Chromium; ensure Firefox-specific keys if needed.  
-- Packaging for Firefox: create signed XPI via AMO developer hub for distribution (already completed for the AMO release).  
-- For Chromium stores you will need a Chrome Web Store developer account to publish; keep `manifest.json` and privacy disclosures up to date.
-
----
 
 ## 🔢 Storage schema & migration guidance
 - Primary storage: `chrome.storage.local` (or the equivalent WebExtension storage on Firefox).  
