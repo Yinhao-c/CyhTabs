@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "CyhTabs",
   "version": "1.0.1",
-  "description": "Effortlessly organize your Chrome tabs into groups, save them, and reopen them with a single click.",
+  "description": "Effortlessly organize your Firefox tabs into groups, save them, and reopen them with a single click.",
 
   "permissions": [
     "tabs",
