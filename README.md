@@ -49,8 +49,10 @@ Install the official Edge extension directly from the Microsoft Add-ons site:
 
 ## 🔧 Supported platforms
 - **Firefox (official)** — Installable via AMO (signed, production release).  
+
 - **Microsoft Edge (official)** — Installable via Microsoft Edge Add-ons (signed, production release).
--**Chrome** — Supported via unpacked developer install (for now). Consider publishing to the Chrome Web Store for broader distribution.
+
+- **Chrome** — Supported via unpacked developer install (for now). Consider publishing to the Chrome Web Store for broader distribution.
 
 ---
 
