@@ -6,6 +6,11 @@
 
 > ⚠️ **Update:** CyhTabs is now published on Firefox Add-ons (AMO). Install the official Firefox add-on directly from the Mozilla Add-ons site: https://addons.mozilla.org/en-US/firefox/addon/cyhtabs/
 >
+> ⚠️ Update: CyhTabs is now published on Microsoft Edge Add-ons.
+Install the official Edge extension directly from the Microsoft Add-ons site:
+👉 https://microsoftedge.microsoft.com/addons/detail/cyhtabs/gogdjogbmnmpibgnhekhbdcpdimojcbb
+
+>
 > This project was developed by the author with minor AI assistance to fix syntax errors and improve code comments.
 
 ---
@@ -66,6 +71,16 @@
 4. Test: open several tabs, click the CyhTabs icon → Save group → name it → verify it appears in the list. Click the saved entry to restore.
 
 > Note: The AMO release is signed and persists across restarts — no temporary developer install is required for normal use.
+
+
+### Microsoft Edge — Install from Add-ons (stable)
+
+1.	Visit the official Microsoft Edge Add-ons listing: https://microsoftedge.microsoft.com/addons/detail/cyhtabs/gogdjogbmnmpibgnhekhbdcpdimojcbb
+	2.	Click Get and follow the Edge prompts to install.
+	3.	Pin the extension to the toolbar for quick access.
+	4.	Test: open several tabs, click the CyhTabs icon → Save group → name it → verify it appears in the list. Click the saved entry to restore.
+
+> Note: The Microsoft Edge Add-ons release is fully signed and persists across restarts — no temporary developer install is required for normal use.
 
 ### Chrome / Edge — Load unpacked (developer / immediate use)
 1. Download and extract the release ZIP file from the releases page.  
